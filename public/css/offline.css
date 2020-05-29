@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-color: silver;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.wrapper {
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    margin: 3rem 3rem auto;
+}
+
+.heading {
+    margin: 1rem 2rem;
+}
+
+h2 {
+    margin: 2rem;
+}
